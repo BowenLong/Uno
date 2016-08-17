@@ -1,0 +1,30 @@
+body{
+    background: url(../image/gamebg.png) no-repeat ;
+    background-color: #fe0000;
+    background-size:contain;
+    -webkit-background-origin:content-box;
+    width: 100%;
+    height: auto;
+}
+
+html{
+    font-family: Khmer UI;
+    color: white;
+}
+#newgame{ 
+    text-align: center;
+    border: solid #ffffff 5px;
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    margin: 5% 32% 30%;
+    font-family: Homestead;
+    background-color: rgba(0,0,0,0.4);
+}
+#newgame h1{
+    padding: 20% 0 0 0;
+    margin-bottom: 20%;
+}
+#newgame button{
+    margin-top: 5%;
+}

@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1471418140256
+Bundle-ManifestVersion: 2
+Bundle-Name: unocard-master-2
+Bundle-SymbolicName: unocard-master-2
+Bundle-Version: 1.0.0.201608170715
+Created-By: 1.8.0_101 (Oracle Corporation)
+Import-Package: com.google.gson;version="[2.7,3)",javax.enterprise.con
+ text,javax.inject,javax.json,javax.persistence,javax.servlet;version=
+ "[3.1,4)",javax.servlet.annotation;version="[3.1,4)",javax.servlet.ht
+ tp;version="[3.1,4)",javax.websocket,javax.websocket.server,javax.ws.
+ rs;version="[2.0,3)",javax.ws.rs.core;version="[2.0,3)",javax.xml.bin
+ d.annotation
+Private-Package: Manager,controller,dataTransferClass,entity,general,r
+ esource,websocket
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.1.0.201512181341
